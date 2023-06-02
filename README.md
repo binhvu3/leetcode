@@ -2,5 +2,5 @@
 A leetcode a day keep the boredom away! 
 
 ## Description
-- Prob 217: Contain Duplicates
-- P242: Valid Anagram
+- P217: Contain Duplicates + May 31,2023
+- P242: Valid Anagram + June 1, 2023
