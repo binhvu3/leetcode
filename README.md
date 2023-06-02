@@ -3,3 +3,4 @@ A leetcode a day keep the boredom away!
 
 ## Description
 - Prob 217: Contain Duplicates
+- P242: Valid Anagram
