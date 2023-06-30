@@ -29,7 +29,6 @@ def valid_val(c):
         return False
 def isPalindrome(s):
     l, r = 0, len(s)-1
-
     while l < r:
         if not valid_val(s[l].lower()):
             l +=1
