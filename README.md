@@ -6,4 +6,4 @@ A leetcode a day keep the boredom away!
 - P242: Valid Anagram ✅
 - P128: Longest Consecutive Sequence ✅
 - P1: Two Sum ✅
-- p125: Valid Palindrome
+- p125: Valid Palindrome ✅
