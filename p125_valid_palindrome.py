@@ -54,11 +54,11 @@ print(f'1st: Expect True ---> Actual: {isPalindrome(s)}')
 
 # Test #2
 s = "race a car"
-print(f'1st: Expect False ---> Actual: {isPalindrome(s)}')
+print(f'2nd: Expect False ---> Actual: {isPalindrome(s)}')
 
 # Test #3
 s = " "
-print(f'1st: Expect True ---> Actual: {isPalindrome(s)}')
+print(f'3rd: Expect True ---> Actual: {isPalindrome(s)}')
 
 
 
