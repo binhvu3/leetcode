@@ -16,19 +16,26 @@ You must implement a solution with O(1) time complexity for each function.
 class MinStack:
 
     def __init__(self):
-        pass
+        self.stack = []
 
     def push(self, val: int) -> None:
-        pass
+        self.stack.append(val)
+        print(f'Push ---> {self.stack}')
 
     def pop(self) -> None:
-        pass
+        res = self.stack[-1]
+        self.stack = self.stack[:-1]
+        print(f'Pop ---> {res}')
+        return res
 
     def top(self) -> int:
-        pass
+        print(f'Top ---> {self.stack[-1]}')
+        return self.stack[-1]
 
     def getMin(self) -> int:
-        pass
+        print(f'getMin ---> {min(self.stack)}')
+        return min(self.stack)
+
 
 '''
 Input
@@ -50,8 +57,11 @@ minStack.getMin(); // return -2
 '''
 
 # Your MinStack object will be instantiated and called as such:
-obj = MinStack()
-obj.push(-2)
-obj.pop()
-param_3 = obj.top()
-param_4 = obj.getMin()
+minStack = MinStack();
+minStack.push(-2);
+minStack.push(0);
+minStack.push(-3);
+minStack.getMin();
+minStack.pop();
+minStack.top();
+minStack.getMin();
