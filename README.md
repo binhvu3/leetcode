@@ -9,3 +9,6 @@ A leetcode a day keep the boredom away!
 - p125: Valid Palindrome ✅
 - p155: Min Stack ✅
 - p20: Valid Parentheses ✅
+
+## To-Do
+[ ] Learn algorithms
