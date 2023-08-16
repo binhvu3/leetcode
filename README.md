@@ -9,6 +9,7 @@ A leetcode a day keep the boredom away!
 - p125: Valid Palindrome ✅
 - p155: Min Stack ✅
 - p20: Valid Parentheses ✅
+- p153: Find Minimum in Rotated Sorted Array ✅
 
 ## To-Do
 [ ] Learn algorithms
